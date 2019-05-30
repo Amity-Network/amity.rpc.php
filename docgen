@@ -21,7 +21,7 @@ function parse()
 
 function writeheader()
 {
-    echo "<pre><h3>NERVA Public API</h3><ul>" > ${dir}/index.html
+    echo "<pre><h3>AMITY Public API</h3><ul>" > ${dir}/index.html
 }
 
 function writefooter()

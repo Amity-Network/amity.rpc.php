@@ -39,8 +39,8 @@ function parse()
 
 function writeheader()
 {
-    echo "<h4>NERVA Public API</h4>" > ${dir}/${html_file}
-    echo "<ul class=\"nerva-api-links\">" >> ${dir}/${html_file}
+    echo "<h4>AMITY Public API</h4>" > ${dir}/${html_file}
+    echo "<ul class=\"amity-api-links\">" >> ${dir}/${html_file}
 }
 
 function writefooter()

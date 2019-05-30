@@ -24,11 +24,11 @@ if (isset($_SERVER['HTTP_USER_AGENT'])) {
     $ua = $_SERVER['HTTP_USER_AGENT'];
 }
 
-//block any user agent that does not start with nerva-cli
+//block any user agent that does not start with amity-cli
 //a basic check as the ua string can be spoofed, but
 //means someone actually has to put in effort to spam it
 
-if ($ua == "NA" || substr($ua, 0, 9) != "nerva-cli") {
+if ($ua == "NA" || substr($ua, 0, 9) != "amity-cli") {
     http_response_code(403);
     return;
 }
